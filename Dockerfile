@@ -4,7 +4,7 @@ LABEL maintainer="Sid Verma <me@sidverma.io>"
 RUN apt-get update \
   && apt-get upgrade
 
-ADD https://github.com/mavidser/cadvisor/releases/download/v0.29.1-master-arm/cadvisor /cadvisor
+ADD https://github.com/mavidser/cadvisor/releases/download/v0.33.1-master-arm/cadvisor /cadvisor
 
 RUN chmod +x /cadvisor
 
